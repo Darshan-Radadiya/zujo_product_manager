@@ -1,0 +1,119 @@
+<html>
+<head>
+
+  
+<style>
+
+body {
+  background: #999999;
+ }
+
+input[type="text"],input[type="password"] {
+  font-size: 0.9em;
+  font-weight: 100;
+  width: 100%;
+  display: curved block;
+  border-radius:10px;
+  padding: 0.8em;
+  border: solid 1.5px rgba(255, 255, 255, 0.37);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff );
+  background-position: -800px 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+}
+
+::placeholder {
+  color: #afafaf;
+}
+
+input[type="submit"] {
+  font-size: .9em;
+  color: #fff;
+  background: #999999;
+  outline: none;
+  border: px solid white;
+  cursor: pointer;
+  padding: 0.9em;
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 1em 0;
+  letter-spacing: 4px;
+}
+
+input[type="submit"]:hover {
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -o-transition: .5s all;
+  -ms-transition: .5s all;
+  transition: .5s all;
+  background: #797676;
+}
+
+.main{
+  padding: 1em 0 1em;
+}
+
+.main1{
+  width: 35%;
+  margin: 3em auto;
+  background: rgba(0, 0, 0, 0.18);
+  background-size: cover;
+}
+.top {
+  padding: 3em;
+}
+
+
+.btn {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #3b3b3b;
+	padding: 20px;
+	border-radius: 15px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+	margin-top: 40px;
+	}
+	.btn:hover {
+		background: #797676;
+		letter-spacing: 1px;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.4s ease 0s;
+		}
+
+</style>
+
+
+<title>login </title>
+</head>
+<body>
+<center>
+<br><br> 
+<br>
+    <form method="post" action="login.php">
+		<div class="main">
+		<img src="login.png" width="10%">
+		<h1>Login Here</h1>
+		<div class="main1">
+		<div class="top">
+
+        <input type="text" class="text" name="username" placeholder="User Name" required></input><br><br><br>
+		
+        <input type="text" class="text"  name="password" placeholder="Password" required></input><br>
+
+        <div align="center"><button class="btn">Login</button></div>
+								
+		<br><a href="signup.html">I don't have an account ?</a><br><br>
+
+
+        </form>
+</center>
+ </body>
+
+</html>

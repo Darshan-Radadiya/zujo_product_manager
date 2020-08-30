@@ -1,0 +1,49 @@
+body{background:#cceee0;}
+
+form{margin:20px;}
+b{font-family:georgia,garamond,serif;font-size:16px;font-style:italic;}
+
+img{border:thick;  width:130px; height:150px;}
+#container{
+       padding:20px;
+       width:70%;
+       margin: 0 auto;
+  background: rgba(0, 0, 0 ,0.10);
+  background-size: cover;
+      }
+h1{text-align:center;font-family:georgia,garamond,serif;}
+
+.checkbox {
+  cursor: pointer;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.btn
+{
+	display:table-cell;
+	font-size:15px;
+	margin-left: 35px;
+	margin-right: 15px;
+	border-radius: 10px;
+	border: none;
+	width: 162px;
+	height: 51px;
+	border: 2px solid #fff;
+	margin: auto;
+	margin-top: 60px;
+	cursor: pointer;
+	justify-content: center;
+	padding: 0;
+	color: #3b5e27;
+	text-transform: uppercase;
+  }
+  .btn:hover
+{
+	font-size:120%;
+	color:white;
+	background-color: #5d943e;
+}
+ 
+
+
